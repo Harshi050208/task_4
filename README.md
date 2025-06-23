@@ -9,7 +9,7 @@ To apply core security practices in cloud using IAM policies, secure storage con
 
 ### 1. IAM Policy
 - Created a **ReadOnlyS3Policy**
-- Assigned to a user `secure-user`
+- Assigned to a user `secure_user`
 - Restricted actions: only `s3:GetObject` and `s3:ListBucket`
 
 ### 2. Secure Storage
